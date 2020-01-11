@@ -11,59 +11,164 @@
 
 <div id="header">
     <h1>
-        Шаблон резюме
-୧▒ •̀ o •́ ▒୨
+        Резюме
     </h1>
     <h3>
-        Заголовок
+        Junior PHP developer
     </h3>
-    <p>
-        <a href="mailto:nomail@nomail.ru">email</a><br>
-        <a href="https://vk.com/id0000000" target="_blank">vk</a>
+    <table id="menu"></table>
+        <tr>
+            <td><a href="#skills">Навыки</a></td>
+            <td><a href="#expirience">Опыт работы</a></td>
+            <td><a href="#education">Образование</a></td>
+            <td><a href="#hobbies">Интересы и увлечения</a></td>
+            <td><a href="#footer">Контакты</a></td>
+        </tr>
     </p>
 </div>
 
 <div id="main">
-    <p>Something 'bout me
-        
+    <h3>Кратко о себе:</h2>
+        <p class = "description">1989 г.р.<br>
+        Изучаю программирование с нуля, приимущественного по курсам Хекслета.<br>Опыта в продакшене не имею, но хотел бы приобрести<br>
+        Тип личности <a href="https://www.16personalities.com/profiles/ee4f3f8ba3c4b" target="blank">INTP-T</a>
     </p>
-    <h2>
-    Опыт работы:</h2>
+    <h2 id = "skills">
+        Навыки:
+    </h2>
         <ul>
-            <li></li>
+            <li><strong>Английский язык B2</strong>
+                <p class = "description">
+                    Читаю и понимаю на слух без словаря, могу объясниться, пишу с автокорректором
+                </p>
+            </li>
+            <li><strong>PHP 7</strong>
+                <p class = "description">
+                    знаком с основами ООП и некоторыми паттернами
+                </p>
+            </li>    
+            <li><strong>Git, Composer, Linux</strong>
+                <p class = "description">
+                    Базовые знания
+                </p>
+            </li>    
+            <li><strong>HTML и CSS</strong>
+                <p class = "description">
+                    в рамках курсов Hexlet и бесплатной части курсов html academy
+                </p>
+            </li>    
+            <li><strong>Основы реляционных баз данных, PostgreSQL</strong>
+                <p class = "description">
+                    Базовые знания
+                </p>
+            </li>    
 
+            <li><strong>Микрофреймворк Slim</strong>
+                <p class = "description">
+                    Экспериментировал с микрофреймворком Slim и деплоил результаты на Heroku
+                </p>
+            </li>
+            <li><strong>CRUD Laravel</strong>
+                <p class = "description">
+                    Реализовал CRUD в Laravel, знаком с основами Eloquent
+                </p>
+            </li> 
+            <li><strong>Cscart</strong>
+                <p class = "description">
+                    Настраивал LAMP для локальной разработки простого модуля Cscart
+                </p>
+            </li>   
         </ul>
-    <h2>
+    <h2 id = "experience">
+    Опыт работы:</h2>
+                <table class = "job">
+                    <tr>
+                        <td>2015-2018</td>
+                        <td>ООО ИРСИ</td>
+                        <td>Исследователь</td>
+                    </tr>
+                </table>
+                <p class = "description">
+                    Digital Humanities ("цифровые гуманитарные науки"). В двух словах - аудит и консультации госструктур по наполнению их сайтов обязательной по закону информацией (в т.ч. машиночитаемыми данными).
+                    <ul class = "sub-list">
+                        <li>Анализировал контент госсайтов</li>
+                        <li>Вел консультации по наполнению сайтов информацией</li>
+                        <li>Писал статьи</li>
+                        <li>Верстал статьи и лендинги в Tilda Publishing (конструктор)</li>
+                        <li>Собирал данные вручную и софтом для скрепинга</li>
+                        <li>Анализировал данные таблицами и спецсофтом</li>
+                        <li>Тестировал приложения и веб-сервисы (мануал)</li>
+                        <li>Курировал проекты и направления работы</li>
+                        <li>Помогал новым сотрудникам</li>
+                        <li>Был спикером на OpenData мероприятиях</li>
+                    </ul>
+                </p>
+            <table class = "job">
+                <tr>
+                    <td>2013-2015</td>
+                    <td>Фриланс</td>
+                    <td>Копирайтер</td>
+                </tr>
+            </table>
+                <p class = "description">
+                    Писал статьи, делал рерайт, переводил с английского
+                </p>
+ 
+            <table class = "job">
+                <tr>
+                    <td>2012</td>
+                    <td>Фонд Свободы Информации</td>
+                    <td>Аналитик</td>
+                </tr>
+            </table>    
+                <p class = "description">
+                    <ul class = "sub-list">
+                        <li>Анализировал контент госсайтов</li>
+                        <li>Вел консультации по наполнению сайтов информацией</li>
+                    </ul>
+                </p>
+            <table class = "job">
+                <tr>
+                    <td>2011</td>
+                    <td>ЗАО РСТ</td>
+                    <td>Помощник юриста</td>
+                </tr>
+            </table>
+                <p class = "description">
+                    Анализировал судебную практику, составлял документы
+                </p>
+        </table>
+    <h2 id = "education">
         Образование
     </h2>
         <ul>
             <li>2011 - Ульяновский государственный педагогический университет (юриспруденция)</li>
             <li>2015 - Очный курс <a href="https://itech-group.ru/" target="_blank">ITECH</a> (основы вебанализа)</li>
-            <li>2016 - Онлайн курс Stepik.org (основы статистики)</li>
+            <li>2016 - Онлайн курс Stepik.org <a href=" https://stepik.org/cert/37390" target="blank">(основы статистики)</a></li>
             <li>2019 - Онлайн курсы Hexlet (PHP)</li>
         </ul>
-    <h2>
-        Навыки и увлечения:
+    <h2 id = "hobbies">
+        Интересы и увлечения
     </h2>
         <ul>
-            <li><strong>Английский язык</strong>
-                <br>B2</li>
-            <li><strong>Открытые данные</strong></li>
-            <li><strong>Веб-скрепинг</strong>
-                <br>OutwitHub, Octoparse</li>
-            <li><strong>Анализ данных</strong>
-                <br>Tableau Public</li>
-            <li><strong>Tilda</strong>
-                <br>Верстка лендингов и статей
-            </li>
+            <li>карточные настолки (Переворот, Корё, покер)</li>
+            <li>фантастика - научная и не очень (из любимых - Дюна, Основание, Гиперион, HPMOR);</li>
+            <li>научпоп - лекции на ютубе и книги (Казанцева, Марков, Дробышевский, Шульман);</li>
+            <li>слушаю рок/метал/фолк/электронную музыку;</li>
+            <li>смотрю кино и сериалы на английском (e.g. Rick and Morty, The Boys, The Mandalorian);</li>
+            <li>люблю, но редко играю в видеоигры (e.g. Witcher 3, Subnautica, MK);</li>
+            <li>катаюсь на велосипеде в сезон;</li>
+            <li>иногда медитирую или занимаюсь йогой.</li>
         </ul>
 </div>
 
 <div id="footer">
-        Ruatl
-    <br>ул. Пушкина 27, кв 178
-    <br>800000000000
-    <br><a href="mailto:nomail@nomail.ru">email</a>
+    Руслан Газиханов
+    <br>Ульяновск
+    <br><a href="mailto:rualnar@gmail.com">email</a><br>
+    <a href="https://vk.com/id8958120" target="blank"><img src="images/icons/vk_icon.png" alt="vk"></a>
+    <a href="https://www.facebook.com/profile.php?id=100011296300538" target="blank"><img src="images/icons/fb_icon.png" alt="facebook"></a>
+    <a href="https://t.me/@rualt" target="blank"><img src="images/icons/telegram_icon.png" alt="telegram"></a>
 </div>
 
 </body>
