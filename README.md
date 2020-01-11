@@ -1,2 +1,5 @@
-CV template
-(Hexlet.io Html/CSS online course)
+This is my short CV
+Here I implement basic knowledge of HTML and CSS.
+
+Images sourse https://icon-icons.com/
+
